@@ -11,7 +11,7 @@ services:
       - eapi_store:/evolution/store
     environment:
       SERVER_URL: http://localhost:8080
-      CONFIG_SESSION_PHONE_CLIENT: AprendaNaWeb
+      CONFIG_SESSION_PHONE_CLIENT: evolution-api-pedroaf0
       AUTHENTICATION_TYPE: apikey
       AUTHENTICATION_API_KEY: 9f2D63MgSgmoiaJEqC8XZh0R4Bgm3CtSKCXtnHCw0zk67ifcaNyseg5BnNiPIKzx55lSlO8YgpBxWAeaT4UIWFycyGCV85lokCtcRNU0YPVKGSdeEqlwVifTgDqY4a7D
       # Permanent data storage MongoDB
